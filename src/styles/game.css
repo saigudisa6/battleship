@@ -1,0 +1,31 @@
+.game-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.comp-grid{
+    margin-left: 48px;
+}
+
+.name{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.game-square{
+    border-style: solid;
+    height: 7.5vh;
+    width: 5vw;
+    pointer-events: none;
+}
+
+.comp-square{
+    border-style: solid;
+    height: 7.5vh;
+    width: 5vw;
+}
+
+.comp-square:hover{
+    background-color: red;
+}
+

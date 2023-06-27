@@ -1,0 +1,59 @@
+.square{
+  border-style: solid;
+  height: 7.5vh;
+  width: 5vw;
+}
+
+.square:hover{
+  background-color: red;
+}
+
+.title{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 85vh;
+  background: url('../../public/homeScreen.jpg');
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-container{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  margin-top: 5vh;
+  height:7vh;
+  margin-bottom: 3vh;
+}
+
+.footer a{
+  font-size: 20px;
+  color: rgb(128, 92, 92)
+}
+
+.highlight{
+  background-color:darkgray;
+}
+
+.hit{
+  background-color: red;
+}
+
+.miss{
+  background-color: green;
+}
+

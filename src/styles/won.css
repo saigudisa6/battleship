@@ -1,0 +1,30 @@
+.win-container{
+    background: black;
+    height: 100vh;
+    color: red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.win-title{
+    font-size: 56px;
+    text-align: center;
+}
+
+.try-again{
+    width: 100px;
+    border-radius: 100px;
+    width: 250px;
+    font-size: 30px;
+}
+
+.try-cont{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+button:hover{
+    cursor: grab;
+}

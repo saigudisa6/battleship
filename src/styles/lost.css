@@ -1,0 +1,13 @@
+.loss-container{
+    background: black;
+    height: 100vh;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button:hover{
+    cursor: grab;
+}
