@@ -1,1 +1,2 @@
-# Practicing React JS by creating a version of the classic Battleship game
+# Battleship
+Practicing React JS by creating a version of the classic game
